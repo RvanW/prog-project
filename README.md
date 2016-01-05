@@ -14,4 +14,4 @@ Ik hoop op dat op deze manier gebruikers nieuwe inspiratie kunnen opdoen voor ge
   - optioneel: tag een restaurant/locatie
  
 # Sketches
-![sketch](doc/sketch.png)
+![sketch](doc/sketches.png)
