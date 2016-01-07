@@ -6,7 +6,7 @@ Ik hoop op deze manier gebruikers inspirate te geven om eens iets nieuws te eten
 
 # Features
 
-- Database met gerechten tot je beschikking (online?)
+- Database met recepten tot je beschikking
 - Favoriete eten opslaan
 - Maak een account, geef commentaar
 - Voeg zelf gerechten toe
@@ -21,14 +21,15 @@ Ik hoop op deze manier gebruikers inspirate te geven om eens iets nieuws te eten
 
 Er zal een database moeten worden aangemaakt, met tenminste 3 tabellen; gebruikers, gerechten en commentaar<br/>
 Deze database zou door gebruikers moeten aangevuld worden, vorm van registratie lijkt me noodzakelijk. <br/>
-Ik hoop dit met sqlite / mysql voor elkaar te krijgen aangezien android dit implementeert, en de data met een online server te synchroniseren.
+Ik hoop dit met sqlite / mysql voor elkaar te krijgen aangezien android dit implementeert, en het te synchroniseren met een online database. Anders is er de mogelijkheid om Parse.com te gebruiken voor online databases.
+Eventueel recepten API toevoegen?
 
 # Potential problems
 
 Een goede database structuur lijkt me erg belangrijk, vooral als er ook afbeeldingen moeten worden opgeslagen. <br/>
-Ik denk dat het grootste gevaar is dat ik te veel features wil maken in een te korte tijd. Prioriteiten stellen is belangrijk in zo'n korte periode, en eerst een feature afwerken voor ik aan de volgende begin.
+Ik denk dat het grootste gevaar is dat ik te veel features wil maken in een te korte tijd. Prioriteiten stellen is belangrijk in zo'n korte periode, en eerst een feature afwerken voor ik aan de volgende begin. <br>
 
 # Soortgelijke apps
-Er zijn een aantal soortgelijke apps, de meeste gebasseerd op restaurant beoordelingen. Ik denk dat mijn app verschilt omdat het niet commercieel gericht is, en simplistisch blijft. Hierdoor kun je makkelijk en snel een lijst met je favoriete voedsel bijhouden.
+Er zijn veel apps met een soortgelijk design, zelfs grote apps als youtube maken gebruik van dit design. Bekende icoontjes en een balk aan de zijkant voor navigatie geeft een vertrouwt gevoel. Ik hoop hetzelfde te bereiken met mijn applicatie.
 
 
