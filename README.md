@@ -8,7 +8,7 @@ I hope to inspire people to eat new things with this app, fill the gap in their 
 
 - Database with recipes at your disposal
 - Store your favorite recipes
-- Create an account, comment on recipes.
+- Create an account, comment on recipes (optional)
 - Add your own recipes
   - Upload a photo, add a description.
   - Optional: make public
