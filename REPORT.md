@@ -20,4 +20,4 @@ The goal of this project building an online platform where users may upload reci
 To thoroughly explain the different parts of my code I have drawn a sketch of how the different screens work.<br>
 All screen titles can be found as Java files in my project, translating what the code is supposed to do. <br>
 To make this work I have used one Activity, which holds the navigation drawer and handles the fragment transitions. <br>
-![doc/tech-sketch.png]
+![sketch](doc/tech-sketch.png)
