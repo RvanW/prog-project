@@ -38,17 +38,16 @@ One of the trade-offs is that I had no time left to implement a search and/or fi
 Also the app only works with an active internet connection, syncing between online and local datastore was too much of a hassle. I have looked into the possibilities, and did experiment with it, but eventually could not get it working. Also I did not have enough time left to build a commenting system, or more detailed account settings (like a picture, google+ sign in).
 
 <br>
-Despite these lacking features I am quite satisfied about the result in such a short time. I feel like I got all the MVP features working solidly, and this is something I can build on. Here are some screenshots of this final project release:
-<img src="doc/screenshot2.png" alt="screenshot" style="width: 100px;"/>
+Despite these lacking features I am quite satisfied about the result in such a short time. I feel like I got all the MVP features working solidly, and this is something I can build on. Here are some screenshots of this final project release: <br>
 
+<img src="doc/screenshot2.png" alt="screenshot" width="300px">
+<img src="doc/screenshot3.png" alt="screenshot" width="300px">
+<img src="doc/screenshot4.png" alt="screenshot" width="300px">
+<img src="doc/screenshot5.png" alt="screenshot" width="300px">
+<img src="doc/screenshot6.png" alt="screenshot" width="300px">
+<img src="doc/screenshot7.png" alt="screenshot" width="300px">
+<img src="doc/screenshot8.png" alt="screenshot" width="300px">
 
-![scr3](doc/screenshot3.png)
-![scr4](doc/screenshot4.png)
-![scr5](doc/screenshot5.png)
-![scr5](doc/screenshot5.png)
-![scr6](doc/screenshot6.png)
-![scr7](doc/screenshot7.png)
-![scr8](doc/screenshot8.png)
 
 
 
