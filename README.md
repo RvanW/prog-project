@@ -20,7 +20,7 @@ I hope to inspire people to eat new things with this app, and entertain themselv
 ![sketch](doc/technical-sketch.png)
 
 # Data, Parts & API's
-After some discussion with the teacher I have decided to NOT focus on implementing a recipe API. Instead I will focus on the part that makes my app unique, which is the social feature in combination with a food platform. Therefore I shall first take care of logging in an signing up users, then adding and displaying recipes. I will also try to get the comments feature working before I look into the possibilities of connecting my app to an existing recipe API.
+After some discussion with the teacher I have decided to NOT focus on implementing a recipe API. Instead I will focus on the part that makes my app unique, which is the social feature in combination with a food platform. Therefore I shall first take care of logging in an signing up users, then adding and displaying recipes. I will also try to get the comments and rating features working before I look into the possibilities of connecting my app to an existing recipe API.
 <br><br>
 As for my database I will at least require these tables:<br>
 - User
@@ -49,7 +49,7 @@ As for my database I will at least require these tables:<br>
   
 # Potential problems
 
-Building a social platform might be time consuming, I must focus on the most important features first. After some feedback I've decided to focus on the social aspect of users being able to add recipes publicly. Also implementing a rating system with proper rules might be a potential hazard, can only be done if the rest is finished. Connecting the different parts later might be tricky.
+Building a social platform might be time consuming, I must focus on the most important features first. After some feedback I've decided to focus on the social aspect of users being able to add recipes publicly.<br> Also implementing a rating system with proper rules might be a potential hazard, can only be done if the rest is finished. To elaborate on this, each user may or may not have rated a particular recipe. The rating for a recipe is the average of all ratings for this particular recipe. If a user has already rated a recipe, it should edit an existing rating to not disturb the average. <br> I will try to seperate building this app feature by feature, but connecting all the different features together later might be tricky.
 
 # Similair apps
 There are a lot of food rating apps, design wise I think youTube app is a great example of the UI i intend to build.
