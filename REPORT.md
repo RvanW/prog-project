@@ -16,7 +16,7 @@ To make use of storing favorites and rating other recipes, users must create an 
 
 ## Technical design
 
-The goal of this project building an online platform where users may upload recipes and rate others. To achieve this in the first place I will require some sort of registration and log in. Parse.com makes this very easy and has saved me a lot of time on this aspect.<br>
+The goal of this project building an online platform where users may upload recipes and rate others. To achieve this in the first place I will require some sort of registration and log in. Parse.com makes this very easy and has saved me a lot of time on this aspect.<br> 
 To thoroughly explain the different parts of my code I have drawn a sketch of how the different screens work.<br>
 All screen titles can be found as Java files in my project, translating what the code is supposed to do. <br>
 To make this work I have used one Activity, which holds the navigation drawer and handles the fragment transitions. <br>
@@ -34,6 +34,19 @@ Instead of +1 or -1 ratings I later decided to go with a scale of 1-5, adding a 
 To achieve this I had to make use of the Parse .increment feature, where every new rating would increment numberOfRatings, and every existing rating adapted properly. To keep track of every individual rating I had already made the Rating table in Parse:<br>
 ![parse3](doc/parse3.png)
 <br>
-My app only works online, syncing between online and local datastore was too much of a challenge. I have looked into the possibilities, and did experimet with it, but eventually could not get it working. Also I did not have enough time left to build a commenting system, or more detailed account settings (like a picture, google+ sign in). <br>
+One of the trade-offs is that I had no time left to implement a search and/or filter function in the gallery.
+Also the app only works with an active internet connection, syncing between online and local datastore was too much of a hassle. I have looked into the possibilities, and did experiment with it, but eventually could not get it working. Also I did not have enough time left to build a commenting system, or more detailed account settings (like a picture, google+ sign in).
+
+<br>
+Despite these lacking features I am quite satisfied about the result in such a short time. I feel like I got all the MVP features working solidly, and this is something I can build on. Here are some screenshots of this final project release:
+![scr2](doc/screenshot2.png)
+![scr3](doc/screenshot3.png)
+![scr4](doc/screenshot4.png)
+![scr5](doc/screenshot5.png)
+![scr5](doc/screenshot5.png)
+![scr6](doc/screenshot6.png)
+![scr7](doc/screenshot7.png)
+![scr8](doc/screenshot8.png)
+
 
 
