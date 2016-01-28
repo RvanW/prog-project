@@ -1,10 +1,8 @@
 # Design Document
 ## MVP
-The Minimal Viable Product is an app which displays a list of popular recipes, in a simple fashion.<br>
-This could be achieved by an (open) recipe API, a filled database on my private webserver. I'm also looking at the possibilities of Parse.com since I will have to deploy some sort of account creation if I want users to add recipes publicly. <br>
-<br>
-I want to add a social aspect to the app, where users may rate and comment. However this is not my priority since time is short. <br>
-Therefore I will focus on retrieving and displaying recipes (the MVP) before working on accounts and social aspects.
+The Minimal Viable Product is an app which displays a list of recipes added by users. <br>
+To achieve this users must be able to create an account and log in, and be able to upload their own recipes. <br>
+I will use Parse.com to maintain an online database and keep track of users, recipes and ratings. <br>
 
 
 ## Sketch
@@ -12,23 +10,23 @@ This sketch contains most of the activities I want to create, apart from a login
 ![](doc/technical-sketch.png)
 
 ## API
-I'm trying to find an open recipe API and populate the recipe list.. <br>
-- http://food2fork.com/about/api
+After some feedback from the teacher I have decided not to implement an API to retrieve recipes. Instead this app will rely on the community to add recipes instead.
 
 ## Data
 For the MVP I will atleast need to get the api working. If I want users to be able to add their own recipes publicly, I need to set up my own database. I will need the following tables:
-- Recipes
+- Recipe
   - titel
   - image
   - description
-  - (rating)
-  - (ingredients)
+  - ingredients
+  - totalRating
+  - numberOfRatings (to calculate average)
 
-- Users (might be handled by Parse.com)
-  - username / email ?
+- User (Parse.com standard user table, no e-mail verification)
+  - username
   - password
 
-- Comments
+- Rating
   - fromUser
   - onRecipe
-  - message
+  - rating
