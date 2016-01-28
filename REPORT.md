@@ -31,6 +31,9 @@ Parse.com was a very helpful tip aswel, as I first thought about implementing a 
 The biggest challenge that eventually arose was implementing the rating system. The rating system was the last feature my MVP needed to have some sort of community interraction. But before ratings could be implemented I had to finish the other features (account, adding recipes, showing recipes, editing recipes). <br>
 Instead of +1 or -1 ratings I later decided to go with a scale of 1-5, adding a fancy cookie ratingbar (cookies go well with cookbook). This however means that the recipe rating is the average of all these ratings. This caused some struggles at first because I was sending a new query to the Parse 'Rating' table for every recipe to calculate the average rating, which led to performance issues. Instead I added 2 columns to the Recipe table: totalRating and amountOfRatings. This way I could always easily calculate the average rating of a recipe by dividing the totalRating by amountOfRatings, if these were kept up to date.<br>
 ![parse2](doc/parse2.png)
-To achieve this I had to make use of the Parse .increment feature, where every new rating would increment numberOfRatings, and every existing rating adapted properly. <br>
+To achieve this I had to make use of the Parse .increment feature, where every new rating would increment numberOfRatings, and every existing rating adapted properly. To keep track of every individual rating I had already made the Rating table in Parse:<br>
+![parse3](doc/parse3.png)
 <br>
-My app only works online, syncing between online and local datastore was too much of a challenge. I have looked into the possibilities, and did experimet with it, but eventually could not get it working
+My app only works online, syncing between online and local datastore was too much of a challenge. I have looked into the possibilities, and did experimet with it, but eventually could not get it working. Also I did not have enough time left to build a commenting system, or more detailed account settings (like a picture, google+ sign in). <br>
+
+
