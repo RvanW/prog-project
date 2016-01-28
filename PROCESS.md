@@ -28,3 +28,29 @@ Can retrieve and show a list of recipes now from Parse, made Gallery fragment th
 
 # Day 9
 Trying to implement an upload image feature (from camera and gallery), image preview seems to disappear on screen rotation..
+
+# Day 10
+Uploading images seems to work now, from camera and from device. Stille trying to find a way to keep the image when the screen rotates..
+
+# Day 11
+Managed to get image displays working, had to include an extra parse library (ParseUI) to use ParseImageView.
+
+# Day 12
+Started implementing a favorite feature, where users with an account may mark any public recipe as favorite and these will be stored under 'favorites'.
+
+# Day 13
+Bugs bugs bugs.. Trying to reorganize the app's data flow to make the app faster (Should not query the favorites for every recipe).
+
+# Day 14
+Implemented a way to edit or delete existing recipes, but only by it's current author. Also went ahead and worked on the styling a little bit.
+
+# Day 15
+Started implementing the rating system, this is actually a lot more work than I thought. Every signed up user should be able to rate once (between 1 and 5), but also be able to adjust their previous rating.
+
+# Day 16
+More work on the rating system, I have a seperate rating table which I need to query for every recipe now.. Feels very inefficient. I will add extra columns to the Recipe table, totalRating and numberOfRatings. This way I can always calculate an average rating with only a recipe row.
+
+# Day 17
+Ratings fully implemented and working (I hope).
+
+
