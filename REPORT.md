@@ -40,7 +40,7 @@ Also the app only works with an active internet connection, syncing between onli
 <br>
 Despite these lacking features I am quite satisfied about the result in such a short time. I feel like I got all the MVP features working solidly, and this is something I can build on. Here are some screenshots of this final project release: <br>
 
-<img src="doc/screenshot2.png" alt="screenshot" width="250px">
+<img src="doc/screenshot2.png" alt="screenshot" width="250px" border="2px solid #e6e6e6">
 <img src="doc/screenshot3.png" alt="screenshot" width="250px">
 <img src="doc/screenshot4.png" alt="screenshot" width="250px">
 <img src="doc/screenshot5.png" alt="screenshot" width="250px">
