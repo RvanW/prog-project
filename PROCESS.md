@@ -18,16 +18,17 @@ Replaced activities with fragment, app now has 1 activity which shows 1 fragment
 Navigation bar seems to work smoothly now, added animations to fragment transitions. Started connecting to Parse.com for user login/sign up.
 
 # Day 6
-Set up proper database classes. Got login and sign up working, still need to tweak of the UI to make it show properly. Connection to Parse seems good.
+Set up database classes. I love parse.com, the login/registration was very simple to implement! Clear documentation and tutorials aswel.
 
 # Day 7
-Connect parse class to my app's java class, made a basic add recipe feature without image which gets uploaded to parse.
+Connect parse class to my app's java class, made a basic 'new recipe' feature without image which gets uploaded to Parse.
 
 # Day 8
-Can retrieve and show a list of recipes now from Parse, made Gallery fragment that shows all public recipes.
+Can retrieve and show a list of recipes now from Parse, made Gallery fragment with a listview that shows all public recipes.<br>
+Setting up adapter etc..
 
 # Day 9
-Trying to implement an upload image feature (from camera and gallery), image preview seems to disappear on screen rotation..
+Struggles with the upload image feature (from camera and gallery), image preview seems to disappear on screen rotation..
 
 # Day 10
 Uploading images seems to work now, from camera and from device. Stille trying to find a way to keep the image when the screen rotates..
@@ -42,7 +43,7 @@ Started implementing a favorite feature, where users with an account may mark an
 Bugs bugs bugs.. Trying to reorganize the app's data flow to make the app faster (Should not query the favorites for every recipe).
 
 # Day 14
-Implemented a way to edit or delete existing recipes, but only by it's current author. Also went ahead and worked on the styling a little bit.
+Implemented a way to edit or delete existing recipes, but only by it's current author. I used the actionbar buttons for this, they will only show if the user owns the recipe. Also went ahead and worked on the styling a little bit.
 
 # Day 15
 Started implementing the rating system, this is actually a lot more work than I thought. Every signed up user should be able to rate once (between 1 and 5), but also be able to adjust their previous rating.
@@ -51,6 +52,6 @@ Started implementing the rating system, this is actually a lot more work than I 
 More work on the rating system, I have a seperate rating table which I need to query for every recipe now.. Feels very inefficient. I will add extra columns to the Recipe table, totalRating and numberOfRatings. This way I can always calculate an average rating with only a recipe row.
 
 # Day 17
-Ratings fully implemented and working (I hope).
+Ratings fully implemented and working (I hope). No more time to work on a comments feature so I will mark this as my beta.
 
 
