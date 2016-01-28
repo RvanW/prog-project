@@ -14,6 +14,8 @@ Made some basic activities, experimenting with different types of navigation. Al
 Started experimenting with Parse. Decided to go with a navigation drawer (side bar), trying to make it work smoothly. <br>
 Replaced activities with fragment, app now has 1 activity which shows 1 fragment at the time.
 
+![screenshot1](doc/screenshot1.png)
+
 # Day 5
 Navigation bar seems to work smoothly now, added animations to fragment transitions. Started connecting to Parse.com for user login/sign up.
 
@@ -31,16 +33,16 @@ Setting up adapter etc..
 Struggles with the upload image feature (from camera and gallery), image preview seems to disappear on screen rotation..
 
 # Day 10
-Uploading images seems to work now, from camera and from device. Stille trying to find a way to keep the image when the screen rotates..
+Uploading images seems to work now, from camera and from device. Still trying to find a way to keep the image when the screen rotates..
 
 # Day 11
-Managed to get image displays working, had to include an extra parse library (ParseUI) to use ParseImageView.
+Managed to get image displays working, had to include an extra parse library (ParseUI) to use ParseImageView. Created DetailsFragment so users can view recipe details now.
 
 # Day 12
-Started implementing a favorite feature, where users with an account may mark any public recipe as favorite and these will be stored under 'favorites'.
+Started working on the ability to add user specific favorites, some minor troubles deleting favorites but eventually got it working..
 
 # Day 13
-Bugs bugs bugs.. Trying to reorganize the app's data flow to make the app faster (Should not query the favorites for every recipe).
+Fixing lots of bugs.. Trying to reorganize the app's data flow for app performance. I should not query the favorites for every recipe. Refactored to query to Parse once, and then check if a recipe id is contained in a list of favorite recipe id's.
 
 # Day 14
 Implemented a way to edit or delete existing recipes, but only by it's current author. I used the actionbar buttons for this, they will only show if the user owns the recipe. Also went ahead and worked on the styling a little bit.
@@ -52,6 +54,14 @@ Started implementing the rating system, this is actually a lot more work than I 
 More work on the rating system, I have a seperate rating table which I need to query for every recipe now.. Feels very inefficient. I will add extra columns to the Recipe table, totalRating and numberOfRatings. This way I can always calculate an average rating with only a recipe row.
 
 # Day 17
-Ratings fully implemented and working (I hope). No more time to work on a comments feature so I will mark this as my beta.
+Ratings fully implemented and working (I hope). No more time to work on a comments feature so I will mark this as my beta.<br>
+Refactor code, update all code documentation.
 
+# Day 18
+Updating readme, started working on final report, making final sketches / screenshots
 
+# Day 19 
+Report..
+
+# Day 20
+Presentation day
