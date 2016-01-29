@@ -1,5 +1,8 @@
-# Programmeer project UvA
-This app is mainly, and combines it with social aspects. <br>
+# Programming project UvA
+## Cookbook
+By Robbert van Waardhuizen (10543147) robbertvanwaardhuizen@gmail.com  <br> <br>
+
+This app is all about food, and combines it with social aspects. <br>
 With this app, users can view public recipes from this "social food network" anytime. <br>
 If they wish to take part of the network themselves, they may chose to sign up for an account. <br>
 This way users are allowed to upload their own recipes, take a photo, and add a description. <br>
